@@ -11,7 +11,7 @@ crawler.warmup()
 result = crawler.run(url="https://www.nbcnews.com/business", screenshot=True)
 
 # Save the screenshot to a file
-with open("screenshot.png", "wb") as f:
+with open("screenshot1.png", "wb") as f:
     f.write(base64.b64decode(result.screenshot))
 
 print("Screenshot saved to 'screenshot.png'!")
